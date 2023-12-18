@@ -29,7 +29,7 @@ Users can input their maximum acceptable risk and desired rate of return on an i
 ## Implementation Status
 The core functionality of the project is complete.
 
-6. **Enhance User Experience (Optional):**
+**Enhance User Experience (Optional):**
    - Create a visually appealing HTML page with graphs and visuals for a user-friendly interface.
 
 ## Why Machine Learning
