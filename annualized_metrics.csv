@@ -1,0 +1,15 @@
+Ticker,Full Name,Annualized Return (%),Risk (%)
+SPY,S&P 500 ETF,11.7,18.82
+DIA,Dow Jones Industrial Average ETF,10.02,18.96
+QQQ,NASDAQ 100 ETF,13.32,27.56
+IWM,Russell 2000 ETF,10.33,24.14
+URTH,MSCI World ETF,11.7,17.48
+EEM,MSCI Emerging Markets ETF,12.44,27.97
+BIL,SPDR Bloomberg Barclays 1-3 Month T-Bill ETF,0.85,0.51
+SHY,iShares 1-3 Year Treasury Bond ETF,1.7,1.5
+IEF,iShares 7-10 Year Treasury Bond ETF,3.68,6.86
+TLT,iShares 20+ Year Treasury Bond ETF,4.87,14.41
+MUB,iShares National Muni Bond ETF,1.41,4.71
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,4.09,10.32
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,4.83,11.59
+BNDX,Vanguard Total International Bond ETF,1.64,3.88
