@@ -20,8 +20,8 @@ Users can input their maximum acceptable risk and desired rate of return on an i
    - Utilize a machine learning model to predict future data.
    - Train the model using older data and test it with more recent data to forecast annual rates of return and risk for each financial instrument.
 
-4. **Apply Markowitz Model:**
-   - Use a mathematical algorithm (Markowitz Model) to determine the maximum rate of return for a given risk level.
+4. **Apply XGBoost Model:**
+   - Use a mathematical algorithm to determine the maximum rate of return for a given risk level.
 
 5. **Generate Ideal Portfolio:**
    - Develop additional code to generate an ideal portfolio of index funds and bonds tailored to an individual's specified risk level.
