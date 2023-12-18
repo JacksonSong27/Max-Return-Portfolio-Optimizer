@@ -1,31 +1,38 @@
-# Max-Return-Portfolio-Optimizer
-Data Science Project 
+# Data Science Project: Retirement Investment Optimizer
 
-Goal: Input Maximum Risk you are willing to take, desired rate of return (this is not that relevant, this more for a comparison to product). Allow user to input these information on Interactive HTML page.
+## Goal
+The objective of this project is to assist users, particularly the elderly, in maximizing their rate of return in the stock market to facilitate a comfortable retirement. The algorithm is designed to be applicable to individuals of all ages based on their specified maximum risk tolerance.
 
-Why? Our original goal is to help the elderly maximize their rate of return in the stock market so that they can retire. But we want to apply this algorithm for people of all ages depending on their maximum risk.
+## How to Use
+Users can input their maximum acceptable risk and desired rate of return on an interactive HTML page for personalized investment recommendations.
 
-How to do that?  Steps:  1) Get Historical Stock Market Data 
-	1) Use Index Funds 
-	2) Use bonds
-	3) we are not using crypto yet because not that applicable
+## Implementation Steps
 
-2. Get the average annual rate of return and risk of each financial instrument (ex: index funds, or bonds)
-How?
-We use simple math for annual rate of return, we use standard deviation to calculate risk.
+1. **Get Historical Stock Market Data:**
+   - Utilize historical data from index funds and bonds.
+   - Crypto assets are not included currently due to limited applicability.
 
-3. Use Machine Learning Model to predict FUTURE DATA
-How?
+2. **Calculate Average Annual Rate of Return and Risk:**
+   - Employ simple math for calculating the annual rate of return.
+   - Use standard deviation to assess risk for each financial instrument.
 
-We use very old data as “training data”. We use “newer” data as “testing” data. Then, we use this to compute future annual rate of return and risk for each financial instrument,.
+3. **Implement Machine Learning Model for Future Predictions:**
+   - Utilize a machine learning model to predict future data.
+   - Train the model using older data and test it with more recent data to forecast annual rates of return and risk for each financial instrument.
 
-Why?
- We need a machine learning model. We want more data.
+4. **Apply Markowitz Model:**
+   - Use a mathematical algorithm (Markowitz Model) to determine the maximum rate of return for a given risk level.
 
-4. We input data into a Markowitz Model (this is not machine learning, this is a mathematical algorithm to get the maximum rate of return given a certain algorithm). This will give us maximum rate of return (which we want).
+5. **Generate Ideal Portfolio:**
+   - Develop additional code to generate an ideal portfolio of index funds and bonds tailored to an individual's specified risk level.
 
-5. Additional Code: We write additional code to give us the ideal portfolio of index funds/bonds that an individual with a certain risk level wants
+## Implementation Status
+The core functionality of the project is complete.
 
-(Done!)
+6. **Enhance User Experience (Optional):**
+   - Create a visually appealing HTML page with graphs and visuals for a user-friendly interface.
 
-6. (If we wanna be fancy), we make a fancy HTML page with graphs and visuals. 
+## Why Machine Learning
+The inclusion of a machine learning model enhances the predictive capabilities of the algorithm, allowing it to adapt to changing market conditions and generate more accurate forecasts.
+
+**Note:** This project is a continuous work in progress, and future enhancements may include additional features and asset classes for a more comprehensive investment strategy.
