@@ -1,4 +1,4 @@
-# Data Science Project: Retirement Investment Optimizer
+# Retirement Investment Optimizer
 
 ## Goal
 The objective of this project is to assist users, particularly the elderly, in maximizing their rate of return in the stock market to facilitate a comfortable retirement. The algorithm is designed to be applicable to individuals of all ages based on their specified maximum risk tolerance.
